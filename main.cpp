@@ -79,7 +79,7 @@ void PK_Travels::setBusDetails() {
     vacantSeatCount=ROW*COLUMN;
 }
 
-// prints detail of bus
+/// prints detail of bus
 void PK_Travels::getBusDetails() {
     verticalLine("-");
     cout<<"Bus Number: "<<busNo<<"\n";
